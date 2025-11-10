@@ -1,0 +1,11 @@
+name: wrangle
+channels: [conda-forge, defaults]
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - statsmodels
+  - scikit-learn
+  - matplotlib
+  - pytest
