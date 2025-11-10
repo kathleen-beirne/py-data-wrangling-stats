@@ -8,4 +8,7 @@ jobs:
     - uses: actions/setup-python@v5
       with: {python-version: '3.11'}
     - run: pip install numpy pandas scipy statsmodels scikit-learn matplotlib pytest
+    - run: ls -R
     - run: pytest -q
+      env:
+        PYTHONPATH: .
